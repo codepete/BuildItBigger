@@ -9,14 +9,10 @@ import com.udacity.gradle.builditbigger.backend.myApi.MyApi;
 
 public class MainActivity extends AppCompatActivity {
 
-    MyApi mCustomApiService;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-
     }
 
     @Override
